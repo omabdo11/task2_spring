@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: spring-boot-903
+
+  security:
+    user:
+      name: omar
+      password: omar123
+
+  messages:
+    basename: i18n/messages
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hr
+    username: root
+    password: 12345
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 7070
